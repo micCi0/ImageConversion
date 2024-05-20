@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Conversion</title>
+    <!-- link to css -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"rel="stylesheet"/>
+</head>
+<body>
+   <div class="wrapper">
+    <div class="top">
+        <!-- this will be shown on load -->
+        <div class="select">
+            <img src="./images/upload.png" class="img">
+            <p>Browse file to upload</p>
+            <!-- image only -->
+            <input type="file" class="file" hidden accept="image/*">
+        </div>
+
+       
+    </div>
+    <!-- after upload an image -->
+    <div class="file-image hide">
+        <img src="./images/pre.png">
+        <div class="control">
+            <div class="one-control">
+                <h3>Width</h3>
+              <input type="number" class="width" value="0">
+            </div>
+            <div class="one-control">
+                <div class="back"><i class="ri-arrow-go-back-line"></i></div>
+            </div>
+            <div class="one-control">
+                <h3>Height</h3>
+              <input type="number" class="height" value="0">
+            </div>
+        </div>
+        <button class="download">Download Image</button>
+    </div>
+   </div>
+   <!-- link to JS -->
+   <script src="./script.js"></script>
+</body>
+</html>

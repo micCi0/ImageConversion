@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background: #927DFC;;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.wrapper{
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 450px;
+  box-shadow: 2px 4px 7px #7862e4;
+  text-align: center;
+}
+.wrapper .top .select{
+  width: 400px;
+}
+.wrapper .top .select.none{
+  /* class to show and hide element */
+  display: none;
+}
+.wrapper img{
+  margin: auto;
+  display: block;
+  cursor: pointer;
+  margin-bottom: 8px;
+  width: 300px;
+}
+.wrapper .top .select p{
+  margin: 0 0 4px;
+}
+.wrapper .file-image{
+  padding: 7px;
+  border-radius: 20px;
+}
+
+.wrapper .file-image.hide{
+  display: none;
+}
+.wrapper .file-image img{
+  width: 90%;
+  height: 200px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
+}
+.wrapper .file-image h3{
+  margin: 0 0 4px;
+}
+
+.wrapper .file-image input{
+  width: 140px;
+  margin: 0 0 7px;
+  padding: 4px 7px;
+  outline: none;
+  border: 1px solid #d3d3d3;
+  border-radius: 2px;
+}
+
+.wrapper .file-image .control i{
+  font-size: 25px;
+  cursor: pointer;
+}
+.wrapper .file-image .control{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: wrap;
+  margin: 0 0 10px;
+}
+.wrapper .file-image .download{
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding: 6px 7px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: #7862e4;
+  color: #ffffff;
+  border: none;
+}
